@@ -20,7 +20,7 @@ int main()
 	std::vector<float> study_time_data;
 	std::vector<float> score_data;
 
-	const int num_data = 30;
+	const int num_data = 20;
 	for (float i = 0.0; i < num_data; i++)
 		study_time_data.push_back(i);
 
@@ -43,7 +43,7 @@ int main()
 	}*/
 	LinearHypothesis lh;
 
-	for (int tr = 0; tr < 20000; tr++)
+	for (int tr = 0; tr < 10000; tr++)
 		for (int i = 0; i < num_data; i++)
 		{
 			// let's train our linear hypothesis to answer correctly!
